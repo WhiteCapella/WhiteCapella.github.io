@@ -7,13 +7,13 @@ while true
 do
 	clear
 	if [ -e "$FILE" ]; then
-		figlet KIA
-		echo "SUDDEN!!!"	
+		DATE=$(date +"%Y%m%d %H:%M:%S")
+		echo $DATE "SUDDEN!!!"	
 	else
 		figlet KIA
-		echo "Check"
+		DATE=$(date +"%Y%m%d %H:%M:%S")
+		echo $DATE "Check"
 	fi
-	date
 	sleep 3
 done
 
