@@ -13,11 +13,12 @@
     }
   ],
   "hosting": {
-    "public": "docs",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
+	"site": "introduce-whitecapella",
+    	"public": "docs",
+    	"ignore": [
+      	"firebase.json",
+      	"**/.*",
+      	"**/node_modules/**"
+    	]
   }
 }
